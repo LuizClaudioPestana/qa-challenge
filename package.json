@@ -1,0 +1,25 @@
+{
+  "name": "qa-challenge",
+  "version": "1.0.0",
+  "description": "QA Automation Challenge - Cypress + Cucumber BDD + Page Object Model",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:api": "cypress run --spec 'cypress/e2e/api/**'",
+    "cy:frontend": "cypress run --spec 'cypress/e2e/frontend/**'",
+    "cucumber:all": "cypress run --spec 'cucumber/features/**/*.feature'",
+    "cucumber:api": "cypress run --spec 'cucumber/features/api/*.feature'",
+    "cucumber:frontend": "cypress run --spec 'cucumber/features/frontend/*.feature'",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.10",
+    "@4tw/cypress-drag-drop": "^2.2.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cucumber/step_definitions/**/*.steps.js"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+.DS_Store
+*.log
+DOCS_INTERNO.md
+.claude
+

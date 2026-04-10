@@ -1,0 +1,2 @@
+QA Automation Challenge - arquivo de upload para o teste do Practice Form.
+Este arquivo é usado pelo Cypress para simular o upload de uma imagem no formulário.
