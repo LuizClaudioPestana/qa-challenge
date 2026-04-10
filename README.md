@@ -88,7 +88,7 @@ npm --version
 **1. Clone o repositório:**
 
 ```bash
-git clone https://github.com/SEU_USUARIO/qa-challenge.git
+git clone https://github.com/LuizClaudioPestana/qa-challenge.git
 cd qa-challenge
 ```
 
