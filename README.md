@@ -269,10 +269,8 @@ module.exports = defineConfig({
     }
   }
 })
+
 ```
-
----
-
 ## 📝 Licença
 
 Projeto desenvolvido para fins avaliativos — QA Automation Challenge.
